@@ -1,0 +1,46 @@
+.dashboardPanel {
+	width: 50.044069%;
+	float: left;
+	position: relative;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.dashboardPanel table {
+	width: 95%;
+	margin: 15px;
+}
+
+.dashboardPanel table thead {
+	background-color: #ededed;
+}
+
+#dashboardMessage {
+	
+}
+
+#dashboardDossiers {
+	margin-left: -1px;
+}
+
+#dashboardMyDossiers {
+	margin-top: -1px;
+	margin-right: -1px;
+}
+
+#dashboardStatistic {
+	margin-top: -1px;
+	height: 399px;
+}
+
+.module-hover {
+	/* background:#f4f9fc!important; */
+	box-shadow: 0 0 10px #999;
+	-moz-box-shadow: 0 0 10px #999;
+	-webkit-box-shadow: 0 0 10px #999;
+	border-color: #f4f9fc !important;
+	z-index: 9999;
+	border: 1px solid #aaa\9;
+	top: -1px\9
+
+}

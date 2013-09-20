@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
+
+<title>Dossier</title>
+
+<!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/dossier.css" rel="stylesheet">
+
+<script src="js/jquery-1.10.2.js"></script>
+<script
+	src="http://webapi.amap.com/maps?v=1.2&key=1f209953b859e04bd719ae34310f68fc"
+	type="text/javascript"></script>
+<script src="js/dossier.js"></script>
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">城市管理公共服务平台</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#about">消息</a></li>
+					<li><a href="#contact">案卷</a></li>
+					<li><a href="#contact">统计查询</a></li>
+					<li><a href="#contact">通信</a></li>
+					<li><a href="#contact">后台管理</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<div class="container commonContainer">
+		<div class="detailItem">
+			<div class="detailParam">
+				<span>上报人</span>
+			</div>
+			<div class="detailInfo">
+				<span>
+					<a href="#">demo08/15868488747</a>
+				</span>
+			</div>
+		</div>
+		<div class="detailItem">
+			<div class="detailParam">
+				<span>上报类型</span>
+			</div>
+			<div class="detailInfo">
+				<span>
+					<a href="#">demo08/15868488747</a>
+				</span>
+			</div>
+		</div>
+		<div class="detailItem">
+			<div class="detailParam">
+				<span>上报时间</span>
+			</div>
+			<div class="detailInfo">
+				<span>
+					<a href="#">demo08/15868488747</a>
+				</span>
+			</div>
+		</div>
+		<div class="detailItem">
+			<div class="detailParam">
+				<span>上报地点</span>
+			</div>
+			<div class="detailInfo">
+				<div id="map_container" style="height: 400px;width: 450px;"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-line"></div>
+		<div id="contactInfo">
+			<span>单位地址：杭州市体育场路231号B楼</span> <span>邮编：310003</span> <span>公开（监督）电话：12319</span>
+			<span>E-mail：cgb@hz.gov.cn</span> <br /> <span>版权所有◎杭州市城市管理委员会技术支持：快威科技集团有限公司</span>
+			<br /> <span>ICP备05007669号</span>
+		</div>
+	</div>
+</body>
+</html>

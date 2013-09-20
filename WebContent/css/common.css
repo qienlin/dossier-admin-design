@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0 auto;
+}
+
+body {
+	font: 12px/1.5 tahoma, arial, "Hiragino Sans GB", "Microsoft Yahei",
+		\5b8b\4f53;
+}
+
+ul {
+	list-style: none;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	/* -webkit-padding-start: 40px; */
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+a:-webkit-any-link {
+	cursor: auto;
+	text-decoration:none;
+}
+
+.commonContainer {
+	box-shadow: 0 8px 22px #999;
+	padding: 0;
+	max-width: 1000px;
+}
+
+.footer {
+	margin-top: 30px;
+	height: auto;
+}
+
+.footer-line {
+	width: 100%;
+	height: 20px;
+	background-repeat: repeat-x;
+	background-image: url(../images/footerLine.png);
+}
+
+#contactInfo {
+	padding-top: 10px;
+	width: 100%;
+	color: #a0a0a0;
+	text-align: center;
+	font: 12px/1.5 tahoma, arial, Hiragino Sans GB, \5b8b\4f53;
+	background-color: #ededed;
+	height: 200px;
+}
+
+#contactInfo span {
+	padding: 0 8px;
+}
