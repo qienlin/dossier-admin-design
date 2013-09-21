@@ -11,11 +11,11 @@
 
 <!-- Bootstrap core CSS -->
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/common.css" rel="stylesheet">
 <link href="css/dossier.css" rel="stylesheet">
 
 <script src="js/jquery-1.10.2.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <script
 	src="http://webapi.amap.com/maps?v=1.2&key=1f209953b859e04bd719ae34310f68fc"
 	type="text/javascript"></script>
@@ -25,8 +25,8 @@
 <body>
 
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse">
-		<div class="container">
+	<div class="navbar navbar-inverse common-navbar">
+		<div class="container common-navbar-container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target=".navbar-collapse">
@@ -37,11 +37,9 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
 					<li><a href="#about">消息</a></li>
-					<li><a href="#contact">案卷</a></li>
-					<li><a href="#contact">统计查询</a></li>
-					<li><a href="#contact">通信</a></li>
+					<li class="active"><a href="#contact">案卷</a></li>
 					<li><a href="#contact">后台管理</a></li>
 				</ul>
 			</div>

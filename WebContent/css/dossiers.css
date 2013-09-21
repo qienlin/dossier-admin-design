@@ -1,45 +1,6 @@
 @CHARSET "UTF-8";
 
-#asideNav {
-	float: left;
-	width: 15%;
-	margin-left: 1px;
-	hegith: auto;
-}
-
-.second-nav {
-	border-top: 1px solid #e2e8ed;
-	border-bottom: 1px solid #f7f7f9;
-	background-color: #F2F3F5;
-}
-
-.second-nav-item {
-	position: relative;
-	/* display: inline-block; */
-	width: 100%;
-	font-size: 14px;
-	height: 45px;
-	line-height: 43px;
-}
-
-.second-nav-link {
-	color: #666666;
-	display: block;
-	text-decoration: none;
-	height: 43px;
-	padding-left: 22px;
-	border-bottom: 1px solid #e2e8ed;
-	border-top: 1px solid #f7f7f9;
-}
-
-.second-nav-item-current {
-	width: 100%;
-	background-color: #FFF;
-	font-weight: bold;
-	box-shadow: -1px 1px 1px #e3e3e6;
-}
-
-.dossierPanel {
+.dossiersPanel {
 	width: 80%;
 	float: left;
 	position: relative;
@@ -47,10 +8,21 @@
 	margin-bottom: 0;
 	margin-left: 30px;
 	margin-top: 12px;
-	border:0;
+	border: 0;
 }
 
-.dossierPanel table {
+.dossiersPanel table {
 	width: 100%;
 	/* margin: 15px; */
+}
+
+.dossiers-search {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.criteria{
+	width:100px;
+	margin-right:7px;
 }

@@ -11,18 +11,18 @@
 
 <!-- Bootstrap core CSS -->
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/common.css" rel="stylesheet">
 <link href="css/dossiers.css" rel="stylesheet">
 
 <script src="js/jquery-1.10.2.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-inverse">
-		<div class="container">
+	<div class="navbar navbar-inverse common-navbar">
+		<div class="container common-navbar-container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target=".navbar-collapse">
@@ -33,11 +33,9 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#">首页</a></li>
 					<li><a href="#about">消息</a></li>
-					<li><a href="#contact">案卷</a></li>
-					<li><a href="#contact">统计查询</a></li>
-					<li><a href="#contact">通信</a></li>
+					<li class="active"><a href="#contact">案卷</a></li>
 					<li><a href="#contact">后台管理</a></li>
 				</ul>
 			</div>
@@ -61,28 +59,68 @@
 				</li>
 			</ul>
 		</div>
-		<div class="panel panel-default dossierPanel">
-			<div class="panel-heading">
-				<form class="navbar-form navbar-left" role="search">
-					<div class="btn-group">
+		<div class="panel panel-default dossiersPanel">
+			<!-- <div class="panel-heading"> -->
+				<form class="navbar-form navbar-left dossiers-search" role="search">
+					<div class="btn-group criteria">
 						<button type="button" class="btn btn-default dropdown-toggle"
 							data-toggle="dropdown">
-							Action <span class="caret"></span>
+							案卷类型 <span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Separated link</a></li>
+							<li><a href="#">案卷类型</a></li>
+							<li><a href="#">管道破裂</a></li>
+							<li><a href="#">井盖丢失</a></li>
+							<li><a href="#">墙体坍塌</a></li>
+							<li><a href="#">其他类型</a></li>
+							<li><a href="#">现场抓拍</a></li>
 						</ul>
 					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
+					<div class="form-group criteria">
+						<input type="text" class="form-control" placeholder="起始日期">
+					</div>
+					<span class="criteria">-</span>
+					<div class="form-group criteria">
+						<input type="text" class="form-control" placeholder="结束日期">
+					</div>
+					<div class="btn-group criteria">
+						<button type="button" class="btn btn-default dropdown-toggle"
+							data-toggle="dropdown">
+							地点区域 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">地点区域</a></li>
+							<li><a href="#">上城区</a></li>
+							<li><a href="#">下城区</a></li>
+							<li><a href="#">江干区</a></li>
+							<li><a href="#">西湖区</a></li>
+							<li><a href="#">风景区</a></li>
+							<li><a href="#">滨江区</a></li>
+							<li><a href="#">杭州经济技术开发区</a></li>
+							<li><a href="#">未知区域</a></li>
+						</ul>
+					</div>
+					<div class="form-group criteria">
+						<input type="text" class="form-control" placeholder="">
+					</div>
+					<div class="btn-group criteria">
+						<button type="button" class="btn btn-default dropdown-toggle"
+							data-toggle="dropdown">
+							受理状态 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">受理状态</a></li>
+							<li><a href="#">未处理</a></li>
+							<li><a href="#">预处理</a></li>
+							<li><a href="#">已立案</a></li>
+							<li><a href="#">已派遣</a></li>
+							<li><a href="#">已处理</a></li>
+							<li><a href="#">已结案</a></li>
+						</ul>
 					</div>
 					<button type="submit" class="btn btn-default">查找</button>
 				</form>
-			</div>
+			<!-- </div> -->
 			<table class="table table-striped">
 				<thead>
 					<tr>
